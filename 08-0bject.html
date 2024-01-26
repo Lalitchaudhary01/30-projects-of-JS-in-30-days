@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects
+    </title>
+</head>
+<body>
+
+    <script>
+      /*  const products = {
+            name: 'socks',
+            price: 1090
+        }; 
+        console.log( products);
+        console.log(products.name);
+        console.log(products.price);
+
+        products.name = 'cotton socks';
+        console.log(products);
+
+        products.newProperty = true;
+        console.log(products);
+
+        delete products.newProperty;
+        console.log(products);
+*/
+
+        /*const product2 = {
+            name: 'shirt',
+            'delivery-time': '1 day',
+            rating: {
+                starts: 4.5,
+                count: 87
+            },
+            fun: function function1() {
+                console.log('function inside objects');
+
+            }
+        };
+        console.log(product2);
+        console.log(product2.name);
+        console.log(product2['name']);
+        console.log(product2['delivery-time']);
+
+        console.log(product2.rating.count);
+        product2.fun();
+
+        console.log(typeof console.log);
+
+        console.log(typeof JSON.stringify(product2));
+
+        const jsonString = JSON.stringify(product2);
+        console.log(JSON.parse(jsonString)); */
+        
+
+        console.log('hello'.length);
+        console.log('hello'.toUpperCase());
+
+        const object1 = {
+        message: 'hello',
+        price: 799
+      };
+      const object2 = object1;
+
+      object1.message = 'Good job!';
+      console.log(object1); 
+      console.log(object2);
+
+      const object3 = {
+        message: 'Good job!',
+        price: 799
+      };
+      console.log(object1 === object3);
+
+       // const message = object1.message;
+       const { message, price: cost } = object1;
+      console.log(message);
+      console.log(cost);
+
+      const object4 = {
+        // message: message,
+        message,
+        // method: function function1() {
+
+        // },
+        // method: function() {
+
+        // },
+        method() {
+
+        }
+      };
+    </script>
+    
+</body>
+</html> 
